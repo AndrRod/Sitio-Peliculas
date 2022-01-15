@@ -7,7 +7,7 @@ export default function Pelicula(props){
                 <p className="rate"><i className="ion-android-star"></i><span>{props.calificacion}</span> /10</p>
                 <p className="describe">{props.children}</p>
                 <p className="run-time"> Duración: {props.duracion}.     <span>MMPA: PG-13 </span>    .     <span>Lanzamiento: {props.fecha}</span></p>
-                <p>Director: <a href="#">{props.director}</a></p>
+                <p>Director: {props.director}</p>
                 <p>Actores: {props.actores}</p>
             </div>
         </div>
